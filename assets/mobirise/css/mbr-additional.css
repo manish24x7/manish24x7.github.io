@@ -704,29 +704,50 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-th7M6GB9fu {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+.cid-th817LhpaK {
+  display: flex;
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-color: #ffffff;
 }
-.cid-th7M6GB9fu .mbr-fallback-image.disabled {
-  display: none;
+.cid-th817LhpaK .content-wrap {
+  padding: 5rem 1rem;
 }
-.cid-th7M6GB9fu .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
+@media (min-width: 768px) {
+  .cid-th817LhpaK {
+    align-items: flex-end;
+  }
+  .cid-th817LhpaK .row {
+    justify-content: flex-start;
+  }
+  .cid-th817LhpaK .content-wrap {
+    width: 93%;
+  }
 }
-.cid-th7M6GB9fu .mbr-section-title {
-  color: #656565;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-th817LhpaK .content-wrap {
+    min-width: 50%;
+  }
 }
-.cid-th7M6GB9fu .mbr-text,
-.cid-th7M6GB9fu .mbr-section-btn {
-  color: #656565;
+@media (max-width: 767px) {
+  .cid-th817LhpaK {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-th817LhpaK .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-th817LhpaK .content-wrap {
+    width: 100%;
+  }
+}
+.cid-th817LhpaK .mbr-section-title {
+  color: #000000;
+}
+.cid-th817LhpaK .mbr-text,
+.cid-th817LhpaK .mbr-section-btn {
+  color: #000000;
 }
 .cid-tgJoWeDTuG {
   z-index: 1000;
@@ -1306,7 +1327,7 @@ a {
 }
 .cid-tgJoWeDTuG .dropdown-menu,
 .cid-tgJoWeDTuG .navbar.opened {
-  background: #000000 !important;
+  background: #ffffff !important;
 }
 .cid-tgJoWeDTuG .nav-item:focus,
 .cid-tgJoWeDTuG .nav-link:focus {
@@ -1341,7 +1362,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: #000000;
+  background: #ffffff;
 }
 .cid-tgJoWeDTuG .navbar.opened {
   transition: all 0.3s;
@@ -1491,7 +1512,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tgJoWeDTuG .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #000000;
+  background: #ffffff;
 }
 .cid-tgJoWeDTuG .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
