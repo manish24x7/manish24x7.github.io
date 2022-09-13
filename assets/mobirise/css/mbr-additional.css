@@ -2,7 +2,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Medium';
   font-size: 6.8rem;
   line-height: 1.1;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 8.5rem;
 }
 .display-2 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Regular';
   font-size: 2.2rem;
   line-height: 1.1;
 }
@@ -18,7 +18,7 @@ body {
   font-size: 2.75rem;
 }
 .display-4 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 1.5rem;
 }
 .display-5 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Regular';
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Light';
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -595,7 +595,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
@@ -609,7 +609,7 @@ a:hover {
   border-color: #000000 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Gilroy-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
@@ -721,7 +721,7 @@ a {
     justify-content: flex-start;
   }
   .cid-th817LhpaK .content-wrap {
-    width: 93%;
+    width: 69%;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
