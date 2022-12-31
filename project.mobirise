@@ -80,7 +80,7 @@
     "screenshot": "screenshot.png",
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "contact.html": {
