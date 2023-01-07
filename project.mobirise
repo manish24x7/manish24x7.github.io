@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "New site",
+    "name": "mpdes",
     "currentPage": "index1.html",
     "theme": {
       "name": "mobirise5",
@@ -94,8 +94,8 @@
         "file": "@PROJECT_PATH@/fonts/Stardom-Regular/font.ttf"
       }
     ],
-    "favicon": false,
-    "mbrsiteDomain": "ejom14vcuz",
+    "favicon": "@PROJECT_PATH@/assets/images/logo.svg",
+    "mbrsiteDomain": "fkzmak8gnd",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
