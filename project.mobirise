@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Manish Patil | UI UX Designer - 7 July 2023",
-    "currentPage": "About Me.html",
+    "name": "Manish Patil | UI UX Designer - 7 July 2023 - 🔴 LIVE",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -62,7 +62,7 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/manish-patil-ui-ux-designer-favicon_1.svg",
     "usedWebp": true,
-    "mbrsiteDomain": "tj1ranffct",
+    "mbrsiteDomain": "s6hvjfnrut",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
@@ -100,7 +100,7 @@
     "witsec-mailform-recaptcha-hidebadge": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "About Me.html": {
