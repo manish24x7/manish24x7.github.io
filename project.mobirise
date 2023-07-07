@@ -62,7 +62,7 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/manish-patil-ui-ux-designer-favicon_1.svg",
     "usedWebp": true,
-    "mbrsiteDomain": "gfuaiowsmw",
+    "mbrsiteDomain": "cbbxg9et9g",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
@@ -100,7 +100,7 @@
     "witsec-mailform-recaptcha-hidebadge": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
