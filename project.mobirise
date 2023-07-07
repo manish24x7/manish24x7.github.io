@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Manish Patil | UI UX Designer - 7 July 2023",
-    "currentPage": "..html",
+    "currentPage": "About Me.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -100,7 +100,7 @@
     "witsec-mailform-recaptcha-hidebadge": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "About Me.html": {
@@ -711,7 +711,7 @@
         }
       ]
     },
-    "..html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Manish Patil | UI UX Designer",
