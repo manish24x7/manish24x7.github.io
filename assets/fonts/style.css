@@ -1,15 +1,10 @@
 @font-face {
-   font-family: 'ClashDisplay-Bold';
+   font-family: 'Mona-Sans-ExtraBoldWide';
    font-display: swap;
-   src: url('ClashDisplay-Bold/font.ttf');
+   src: url('Mona-Sans-ExtraBoldWide/font.ttf');
 }
 @font-face {
-   font-family: 'Gilroy-Regular';
+   font-family: 'Mona-Sans';
    font-display: swap;
-   src: url('Gilroy-Regular/font.ttf');
-}
-@font-face {
-   font-family: 'Gilroy-Light';
-   font-display: swap;
-   src: url('Gilroy-Light/font.ttf');
+   src: url('Mona-Sans/font.ttf');
 }
