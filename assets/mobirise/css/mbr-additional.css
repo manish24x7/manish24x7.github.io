@@ -1077,7 +1077,7 @@ a {
 .cid-tJjoaPAhE7 {
   padding-top: 10rem;
   padding-bottom: 4rem;
-  background-image: url("../../../assets/images/hero-gradient.svg");
+  background-image: linear-gradient(0deg, #000000 10%, #071322 100%) !important;
 }
 .cid-tJjoaPAhE7 .mbr-fallback-image.disabled {
   display: none;
@@ -1670,7 +1670,7 @@ a {
 .cid-tJk5feZEe0 {
   padding-top: 10rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/hero-gradient.svg");
+  background-color: #010912;
 }
 .cid-tJk5feZEe0 .mbr-fallback-image.disabled {
   display: none;
