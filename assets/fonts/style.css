@@ -1,10 +1,10 @@
 @font-face {
-   font-family: 'Mona-Sans-ExtraBoldWide';
+   font-family: 'HafferSQXHTRIAL-Regular';
    font-display: swap;
-   src: url('Mona-Sans-ExtraBoldWide/font.ttf');
+   src: url('HafferSQXHTRIAL-Regular/font.woff');
 }
 @font-face {
-   font-family: 'Mona-Sans';
+   font-family: 'FenulCondensedTRIAL-Heavy';
    font-display: swap;
-   src: url('Mona-Sans/font.ttf');
+   src: url('FenulCondensedTRIAL-Heavy/font.woff');
 }
