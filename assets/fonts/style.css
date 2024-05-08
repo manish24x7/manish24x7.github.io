@@ -1,10 +1,15 @@
 @font-face {
-   font-family: 'HafferSQXHTRIAL-Regular';
+   font-family: 'Switzer-Medium';
    font-display: swap;
-   src: url('HafferSQXHTRIAL-Regular/font.woff');
+   src: url('Switzer-Medium/font.woff');
 }
 @font-face {
-   font-family: 'FenulCondensedTRIAL-Heavy';
+   font-family: 'Sweet Sucker Punch';
    font-display: swap;
-   src: url('FenulCondensedTRIAL-Heavy/font.woff');
+   src: url('Sweet Sucker Punch/font.ttf');
+}
+@font-face {
+   font-family: 'Switzer-Regular';
+   font-display: swap;
+   src: url('Switzer-Regular/font.woff');
 }
