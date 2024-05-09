@@ -4,11 +4,6 @@
    src: url('Switzer-Medium/font.woff');
 }
 @font-face {
-   font-family: 'Sweet Sucker Punch';
-   font-display: swap;
-   src: url('Sweet Sucker Punch/font.ttf');
-}
-@font-face {
    font-family: 'Switzer-Regular';
    font-display: swap;
    src: url('Switzer-Regular/font.woff');
