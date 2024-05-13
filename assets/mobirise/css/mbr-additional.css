@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 4px !important;
+  border-radius: 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -704,6 +704,9 @@ a {
 .cid-uceudnagNR .navbar-dropdown {
   position: relative !important;
 }
+.cid-uceudnagNR .navbar-dropdown {
+  position: absolute !important;
+}
 .cid-uceudnagNR .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";
@@ -816,8 +819,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #07090f;
+  position: absolute;
+  background: rgba(7, 9, 15, 0);
 }
 .cid-uceudnagNR .navbar.opened {
   transition: all 0.3s;
@@ -1069,9 +1072,9 @@ a {
   }
 }
 .cid-uc2hjQOa4m {
-  padding-top: 3rem;
+  padding-top: 7rem;
   padding-bottom: 1rem;
-  background-color: #07090f;
+  background-image: url("../../../assets/images/backdrop-1.svg");
 }
 .cid-uc2hjQOa4m .mbr-fallback-image.disabled {
   display: none;
