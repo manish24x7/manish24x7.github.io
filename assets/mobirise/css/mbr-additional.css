@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 0 !important;
+  border-radius: 4px !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -1372,7 +1372,7 @@ a {
 }
 @media (max-width: 767px) {
   .cid-ucepg9d24T * {
-    text-align: center !important;
+    text-align: left !important;
   }
   .cid-ucepg9d24T .content-column {
     margin-bottom: 2rem;
