@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 4px !important;
+  border-radius: 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -779,7 +779,7 @@ a {
   }
 }
 .cid-uceudnagNR .iconfont-wrapper {
-  color: #000000 !important;
+  color: #ff6700 !important;
   font-size: 1.5rem;
   padding-right: 0.5rem;
 }
