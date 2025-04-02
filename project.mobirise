@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "New Dark - Manish Patil | UI UX | Product Designer",
-    "currentPage": "About.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -121,7 +121,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "publishEditFolder": false
   },
   "pages": {
