@@ -133,7 +133,7 @@
 
   /* Static text */
   .contribution-text {
-    font-family: var(--primary-font, "Plus jakarta sans", sans-serif);
+    font-family: var(--primary-font, "Plus Jakarta Sans", sans-serif);
     font-size: var(--primary-font-size, 18px);
     font-weight: var(--primary-font-weight, 400);
     text-transform: var(--primary-text-transform, normal);
@@ -141,7 +141,7 @@
     white-space: nowrap;
   }
 
-  /* Vertical separator */
+    /* Vertical separator */
   .vertical-separator {
     width: 2px;
     height: 20px;
@@ -172,7 +172,17 @@
     width: 100px;
     height: 30px;
     object-fit: contain;
-    filter: grayscale(100%) opacity(0.5);
+    filter: grayscale(100%) opacity(0.5); /* Grayscale effect */
+    transition: filter 0.3s ease-in-out; /* Smooth transition */
+  }
+
+  /* Hover effects */
+  .company-logo-strip:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+  }
+
+  .company-logo-item img:hover {
+    filter: none; /* Restore original colors */
   }
 
   /* Keyframes for smooth infinite scrolling */
@@ -185,7 +195,7 @@
     }
   }
 </style>
-<!-- END: Contribution Section --> 
+<!-- END: Contribution Section -->
 	      
       </div>
     </div>
