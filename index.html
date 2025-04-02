@@ -78,67 +78,115 @@
         <div class="image-wrapper">
           <img class="w-100" src="assets/images/filler.png" alt="Mobirise Website Builder">
         </div>
-	      <!-- START: Technology Logo Strip -->
-<div class="logo-strip">
-  <div class="logo-container">
-    <!-- Figma Logo -->
-    <div class="logo-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma Logo" width="32" height="32">
-    </div>
+<!-- START: Contribution Section -->
+<div class="contribution-container">
+  <span class="contribution-text">I've worked with</span>
+  <div class="vertical-separator"></div>
+  <div class="logo-wrapper">
+    <div class="company-logo-strip">
+      <!-- Original Set of Logos -->
+      <div class="company-logo-item">
+        <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="Udemy Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://asset.amdocs.com/digital-to-network/img/amdocs-logo-white.svg" alt="Amdocs Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://cdn.prod.website-files.com/6278a259cc3db4179e7a3a8e/639c71cbd865df7e89189da5_iMocha%20white.svg" alt="iMocha Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://www.winvesta.in/hs-fs/hubfs/raw_assets/public/Winvesta_V2/images/winvesta_white.png?width=350&name=winvesta_white.png" alt="Winvesta Logo">
+      </div>
 
-    <!-- Sketch Logo -->
-    <div class="logo-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Sketch_Logo.svg" alt="Sketch Logo" width="32" height="32">
-    </div>
-
-    <!-- Adobe XD Logo -->
-    <div class="logo-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" alt="Adobe XD Logo" width="32" height="32">
-    </div>
-
-    <!-- HTML5 Logo -->
-    <div class="logo-item">
-      <img src="https://cdn.iconscout.com/icon/free/png-512/free-html-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-2944937.png?f=webp&w=512" 
-           alt="HTML5 Logo" width="32" height="32">
-    </div>
-
-    <!-- CSS3 Logo -->
-    <div class="logo-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS3 Logo" width="32" height="32">
-    </div>
-
-    <!-- Jira Logo -->
-    <div class="logo-item">
-      <img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" alt="Jira Logo" width="32" height="32">
+      <!-- Duplicate the Same Logos for Continuous Looping -->
+      <div class="company-logo-item">
+        <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="Udemy Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://asset.amdocs.com/digital-to-network/img/amdocs-logo-white.svg" alt="Amdocs Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://cdn.prod.website-files.com/6278a259cc3db4179e7a3a8e/639c71cbd865df7e89189da5_iMocha%20white.svg" alt="iMocha Logo">
+      </div>
+      <div class="company-logo-item">
+        <img src="https://www.winvesta.in/hs-fs/hubfs/raw_assets/public/Winvesta_V2/images/winvesta_white.png?width=350&name=winvesta_white.png" alt="Winvesta Logo">
+      </div>
     </div>
   </div>
 </div>
 
+<!-- Add the following CSS inside <style> tag or in an external CSS file -->
 <style>
-  .logo-strip {
-    width: 100%;
-    background-color: #07090f;
+  body {
+    background-color: #07090f; /* Match site background */
+    color: white;
+    margin: 0;
+    padding: 0;
   }
 
-  .logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Align logos to the left */
-    gap: 32px; /* Add 16px spacing between logos */
-  }
-
-  .logo-item {
+  /* Container for text + logos */
+  .contribution-container {
     display: flex;
     align-items: center;
+    gap: 16px;
   }
 
-  .logo-item img {
-    max-width: 32px;
-    max-height: 32px;
+  /* Static text */
+  .contribution-text {
+    font-family: var(--primary-font, "Plus jakarta sans", sans-serif);
+    font-size: var(--primary-font-size, 18px);
+    font-weight: var(--primary-font-weight, 400);
+    text-transform: var(--primary-text-transform, normal);
+    letter-spacing: var(--primary-letter-spacing, 0.5px);
+    white-space: nowrap;
+  }
+
+  /* Vertical separator */
+  .vertical-separator {
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    opacity: 0.5;
+  }
+
+  /* Wrapper for fading effect */
+  .logo-wrapper {
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+  }
+
+  /* Scrolling logo strip */
+  .company-logo-strip {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: max-content; /* Ensures strip is wide enough for smooth looping */
+    animation: scrollLogos 10s linear infinite;
+  }
+
+  /* Logo styling */
+  .company-logo-item img {
+    width: 100px;
+    height: 30px;
     object-fit: contain;
+    filter: grayscale(100%) opacity(0.5);
+  }
+
+  /* Keyframes for smooth infinite scrolling */
+  @keyframes scrollLogos {
+    from {
+      transform: translateX(1%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 </style>
-<!-- END: Technology Logo Strip -->
+<!-- END: Contribution Section --> 
+	      
       </div>
     </div>
   </div>
