@@ -337,12 +337,6 @@
 
 <section data-bs-version="5.1" class="footer4 cid-uc5Gf9trkE" once="footers" id="footer04-22">
 
-    
-
-    
-
-    
-
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
@@ -351,52 +345,6 @@
         </div>
     </div>
 </section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  <!-- Visitor Counter -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
-<div id="visitor-counter" style="
-  background-color: #07090f;
-  color: #ffffff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  padding: 10px 0;
-">
-  Loading visitor count...
-</div>
-
-<script>
-(async () => {
-  const endpoint = 'https://script.google.com/macros/s/AKfycby3J9bcoiLh6RNdPr7nqk96pWH79XsviDU6Hx4o5QeHQ9S6U8MjZeNtsr_aGdr96AOP/exec';
-
-  try {
-    const locRes = await fetch('https://ipapi.co/json/');
-    const loc = await locRes.json();
-
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      body: JSON.stringify({
-        ip: loc.ip,
-        country: loc.country_name,
-        city: loc.city
-      }),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    });
-
-    const result = await response.json();
-    document.getElementById('visitor-counter').textContent =
-      `You are visitor #${result.totalVisitors} | Total visitors: ${result.totalVisitors}`;
-  } catch (err) {
-    console.error('Visitor tracking failed:', err);
-    document.getElementById('visitor-counter').textContent =
-      'Unable to load visitor data.';
-  }
-})();
-</script>
-	  <!-- Visitor Counter -->
-
   
 </body>
 </html>
