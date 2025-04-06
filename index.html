@@ -341,45 +341,6 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-4">Designed + Hosted on GitHub by&nbsp;<a href="http://www.linkedin.com/in/manish-patil-6154821b4" class="text-danger" target="_blank">Manish Patil</a><br></p>
-<!-- Visitor Counter -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
-<div id="visitor-counter" style="
-  background-color: #07090f;
-  color: #ffffff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  padding: 10px 0;
-">
-  Loading visitor data...
-</div>
-
-<script>
-(function() {
-  // Retrieve lifetime visitor count from localStorage or set to 0 if not set
-  let lifetimeVisitors = localStorage.getItem('lifetimeVisitors');
-  if (!lifetimeVisitors) {
-    lifetimeVisitors = 0;
-  }
-
-  // Increment lifetime visitor count each time the page is loaded
-  lifetimeVisitors++;
-  localStorage.setItem('lifetimeVisitors', lifetimeVisitors);
-
-  // Retrieve session visitor count from sessionStorage or set to 1 if it's the first visit
-  let sessionVisitorCount = sessionStorage.getItem('sessionVisitorCount');
-  if (!sessionVisitorCount) {
-    sessionVisitorCount = 1;  // Start at 1 for the current session
-    sessionStorage.setItem('sessionVisitorCount', sessionVisitorCount);
-  }
-
-  // Update the counter displayed in the footer
-  document.getElementById('visitor-counter').textContent =
-    `You are visitor #${sessionVisitorCount} (Session) | Total visitors: ${lifetimeVisitors} (Lifetime)`;
-})();
-</script>
-		<!-- Visitor Counter -->
             </div>
         </div>
     </div>
