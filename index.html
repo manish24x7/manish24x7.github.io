@@ -341,15 +341,15 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-4">Designed + Hosted on GitHub by&nbsp;<a href="http://www.linkedin.com/in/manish-patil-6154821b4" class="text-danger" target="_blank">Manish Patil</a><br></p>
-		<!-- Visitor Counter -->
+<!-- Visitor Counter -->
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
 <div id="visitor-counter" style="
   background-color: #07090f;
-  color: #999999;
+  color: #ffffff;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   padding: 10px 0;
 ">
   Loading visitor data...
@@ -367,15 +367,12 @@
   lifetimeVisitors++;
   localStorage.setItem('lifetimeVisitors', lifetimeVisitors);
 
-  // Retrieve current session visitor count from sessionStorage
+  // Retrieve session visitor count from sessionStorage or set to 1 if it's the first visit
   let sessionVisitorCount = sessionStorage.getItem('sessionVisitorCount');
   if (!sessionVisitorCount) {
-    sessionVisitorCount = 0;
+    sessionVisitorCount = 1;  // Start at 1 for the current session
+    sessionStorage.setItem('sessionVisitorCount', sessionVisitorCount);
   }
-
-  // Increment session visitor count for this session
-  sessionVisitorCount++;
-  sessionStorage.setItem('sessionVisitorCount', sessionVisitorCount);
 
   // Update the counter displayed in the footer
   document.getElementById('visitor-counter').textContent =
