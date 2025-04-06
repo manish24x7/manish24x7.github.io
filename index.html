@@ -347,6 +347,49 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-4">Designed + Hosted on GitHub by&nbsp;<a href="http://www.linkedin.com/in/manish-patil-6154821b4" class="text-danger" target="_blank">Manish Patil</a><br></p>
+<!-- Visitor Counter -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
+<div id="visitor-counter" style="
+  background-color: #07090f;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+">
+  Loading visitor data...
+</div>
+
+<script>
+(async () => {
+  const endpoint = 'https://script.google.com/macros/s/AKfycbwZzLxvTGE2agnLHEXkEz0KEumSsAblucTPSfXBhp6E8Q-VtWCLe-zwClOF19JJVTKZ/exec';
+
+  try {
+    const locationRes = await fetch('https://ipapi.co/json/');
+    const location = await locationRes.json();
+
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      body: JSON.stringify({
+        ip: location.ip,
+        country: location.country_name,
+        city: location.city
+      }),
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    const result = await response.json();
+    document.getElementById('visitor-counter').textContent = 
+      `You are visitor #${result.totalVisitors} | Total visitors: ${result.totalVisitors}`;
+  } catch (err) {
+    document.getElementById('visitor-counter').textContent = 
+      "Visitor tracking unavailable.";
+    console.error('Tracking error:', err);
+  }
+})();
+</script>
+<!-- Visitor Counter -->
             </div>
         </div>
     </div>
