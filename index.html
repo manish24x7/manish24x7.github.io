@@ -12,7 +12,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/manish-patil-ui-ux-designer-favicon-2.svg" type="image/x-icon">
   <meta name="description" content="">
-  
+
+	<!-- Aurora Background -->
+<div class="aurora-background"></div>
+
+<style>
+  .aurora-background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+    background: radial-gradient(circle at 30% 30%, #7ed4ff55, transparent 60%),
+                radial-gradient(circle at 70% 40%, #ff7ed455, transparent 60%),
+                radial-gradient(circle at 40% 70%, #d47eff55, transparent 60%),
+                radial-gradient(circle at 60% 80%, #7effd455, transparent 60%);
+    filter: blur(100px) saturate(150%);
+    animation: auroraMove 15s ease-in-out infinite alternate;
+  }
+
+  @keyframes auroraMove {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+      transform: translate3d(-5%, -3%, 0) scale(1.1);
+    }
+    100% {
+      transform: translate3d(5%, 3%, 0) scale(1);
+    }
+  }
+</style>
   
   <title>Manish Patil | UI UX Product Designer</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
